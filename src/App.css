@@ -1,3 +1,39 @@
 .App {
   text-align: center;
 }
+
+.container p {
+  color: red;
+}
+
+.memberForm label {
+  margin-right: 1%;
+}
+
+.memberForm input {
+  padding: 0 2%;
+  margin-left: 0.35%;
+  text-align: center;
+}
+
+.memberForm select {
+  margin-left: 0.35%;
+}
+
+.memberHeader {
+  border: 2px solid black;
+  padding: 1%;
+  margin: 3% 28%;
+  font-style: italic;
+  background-color: rgb(31, 67, 60);
+  color: white;
+}
+
+.activeMemberHeader {
+  border: 2px solid black;
+  padding: 1%;
+  margin: 3% 28%;
+  font-style: italic;
+  background-color: rgb(31, 67, 60);
+  color: white;
+}

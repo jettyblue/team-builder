@@ -40,17 +40,21 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Team Members</h1>
-      <p>Fill out the form below and click "SUBMIT' to add a member to your team</p>
-      <h3 className='error-text'>{formError}</h3>
+      <div className='container'>
+        <h1>Team Members</h1>
+        <p>Fill out the form below and click "SUBMIT' to add a member to your team</p>
+        <h3 className='error-text'>{formError}</h3>
+      </div>
 
-      <MemberForm
-        formValues={formValues}
-        updateForm={updateForm}
-        submitForm={submitForm}
-      />
+      <div className='memberForm'>
+        <MemberForm
+          formValues={formValues}
+          updateForm={updateForm}
+          submitForm={submitForm}
+        />
+      </div>
 
-      <p className='memberHeader'>Submission was accepted if your name appears below</p>
+      <p className='memberHeader'>Submission was accepted if your name appears below:</p>
       {
         members.map(member => {
           return (
