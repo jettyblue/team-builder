@@ -1,17 +1,19 @@
 import React from 'react'
 
-export default function Member(props) {
-  const { details } = props
-
+function Member({ details }) {
   if (!details) {
-    return <h3>Working fetching your member&apos;s details...</h3>
+    return <h3>Working fetching your member details...</h3>
   }
 
   return (
     <div className='member container'>
-      <h2>{details.name}</h2>
+      <p>First Name: {details.first_name}</p>
+      <p>Last Name: {details.last_name}</p>
       <p>Email: {details.email}</p>
-      <p>Role: {details.role}</p>
+      <p>Password: {details.password}</p>
+      <br></br>
     </div>
   )
 }
+
+export default Member;

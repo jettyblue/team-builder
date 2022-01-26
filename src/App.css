@@ -2,29 +2,63 @@
   text-align: center;
 }
 
-.container p {
-  color: rgb(138, 5, 5);
+h1 {
+  color: rgb(69, 58, 58);
 }
 
-.memberForm label {
-  margin-right: 1%;
+h3 {
+  color: rgb(69, 58, 58);
+  margin: 2% 0;
 }
 
-.memberForm input {
-  padding: 0 2%;
-  margin-left: 0.35%;
-  text-align: center;
+h4 {
+  color: darkred;
+  margin: 1% 0;
 }
 
-.memberForm select {
-  margin-left: 0.35%;
+p {
+  color: rgb(69, 58, 58);
+  margin: 1% 0;
+  font-size: 0.85rem;
 }
 
-.memberHeader {
-  border: 2px solid black;
-  padding: 1%;
-  margin: 3% 28%;
-  font-style: italic;
-  background-color: rgb(31, 67, 60);
+form {
+  display: table;
+}
+
+label {
+  color: rgb(69, 58, 58);
+  padding: 0 1.5%;
+  font-size: 0.85rem;
+  display: table-cell;
+}
+
+input {
+  margin-left: 0.5%;
+  align-items: right;
+  display: table-cell;
+}
+
+button {
+  margin: 3% 1.5%;
+}
+
+button:active {
+  background-color: slategrey;
   color: white;
+  border-radius: 3px;
+}
+
+div.form-group {
+  line-height: 16px;
+}
+
+div.member {
+  background-color: rgb(150, 182, 169, 0.65);
+  max-width: 26%;
+  margin-bottom: 2%;
+  border-radius: 5px;
+  padding-left: 2%;
+  padding-top: 1%;
+  border: 1px solid black;
 }
