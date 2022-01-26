@@ -3,7 +3,7 @@
 }
 
 .container p {
-  color: red;
+  color: rgb(138, 5, 5);
 }
 
 .memberForm label {
@@ -21,15 +21,6 @@
 }
 
 .memberHeader {
-  border: 2px solid black;
-  padding: 1%;
-  margin: 3% 28%;
-  font-style: italic;
-  background-color: rgb(31, 67, 60);
-  color: white;
-}
-
-.activeMemberHeader {
   border: 2px solid black;
   padding: 1%;
   margin: 3% 28%;

@@ -62,15 +62,6 @@ function App() {
           )
         })
       }
-
-      <p className='activeMemberHeader'>Active Members:</p>
-      {
-        members.map(member => {
-          return (
-            <Member key={member.name} details={member} />
-          )
-        })
-      }
     </div>
   )
 }
