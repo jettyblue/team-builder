@@ -3,11 +3,13 @@
 }
 
 h1 {
-  font-size: 2.5rem;
-  letter-spacing: 1px;
-  color: rgba(150, 182, 169, 0.65);
-  -webkit-text-stroke: 1px rgb(0, 0, 0);
-  text-shadow: 0px 4px 4px rgb(0, 0, 0);
+  background: url('https://images.unsplash.com/photo-1576328556242-35346f470f79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3JlZW4lMjBwbGFudHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+  font-size: 65px;
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-size: 100% 100%;
+  margin: 2% 0;
 }
 
 h3 {
@@ -22,7 +24,7 @@ h4 {
 }
 
 p {
-  color: rgb(69, 58, 58);
+  color: rgb(235, 235, 235);
   margin: 1% 0;
   font-size: 0.85rem;
 }
@@ -68,7 +70,7 @@ div.form-group {
 }
 
 div.member {
-  background-color: rgb(150, 182, 169, 0.65);
+  background-color: #2c614d;
   max-width: 25%;
   margin-bottom: 2%;
   border-radius: 5px;
