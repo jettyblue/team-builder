@@ -36,7 +36,7 @@ export default function Form(props) {
       </div>
 
 
-      <div className='form-group inputs'>
+      <div className='form-group-inputs'>
         <h3>New Member Registration</h3>
 
         <label>First Name:
@@ -83,7 +83,7 @@ export default function Form(props) {
       </div>
 
 
-      <div className='form-group checkboxes'>
+      <div className='form-group-checkboxes'>
         <h3>Our Terms of Service</h3>
 
         <label>I have read and accept the Terms of Service

@@ -7,8 +7,7 @@ function Member({ details }) {
 
   return (
     <div className='member container'>
-      <p>First Name: {details.first_name}</p>
-      <p>Last Name: {details.last_name}</p>
+      <p>Name: {details.first_name} {details.last_name}</p>
       <p>Email: {details.email}</p>
       <p>Password: {details.password}</p>
       <br></br>

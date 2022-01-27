@@ -3,12 +3,14 @@
 }
 
 h1 {
-  color: rgb(69, 58, 58);
+  color: rgba(181, 219, 203, 0.65);
+  text-shadow: 0.5px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -0.5px 0 0 #000
 }
 
 h3 {
   color: rgb(69, 58, 58);
-  margin: 2% 0;
+  padding: 2% 0;
+  margin-bottom: 1%;
 }
 
 h4 {
@@ -37,6 +39,15 @@ input {
   margin-left: 0.5%;
   align-items: right;
   display: table-cell;
+  margin-top: 1%;
+}
+
+.container h3 {
+  margin-bottom: -1%;
+}
+
+.form-group-checkboxes label {
+  font-style: italic;
 }
 
 button {
