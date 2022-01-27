@@ -3,8 +3,10 @@
 }
 
 h1 {
-  color: rgba(181, 219, 203, 0.65);
-  text-shadow: 0.5px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -0.5px 0 0 #000
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  color: rgba(150, 182, 169, 0.65);
+  -webkit-text-stroke: 2px black;
 }
 
 h3 {
@@ -66,7 +68,7 @@ div.form-group {
 
 div.member {
   background-color: rgb(150, 182, 169, 0.65);
-  max-width: 26%;
+  max-width: 25%;
   margin-bottom: 2%;
   border-radius: 5px;
   padding-left: 2%;
